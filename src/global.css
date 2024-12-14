@@ -2,6 +2,12 @@
   /*COLOR*/
   --primary-color: #333;
 
+  --yellow-color-1: #fb1;
+  --yellow-color-2: #fea;
+  --yellow-color-3: #764701;
+  
+  --error-color: #f31;
+
   /*FONTS*/
   --font-type-first: Helvetica, Arial, sans-serif;
   --font-type-second: 'Spectral', Georgia;
@@ -12,6 +18,7 @@
 }
 
 body {
+  padding-top: 4rem;
   margin: 0;
   color: var(--primary-color);
   font-family: var(--font-type-first);

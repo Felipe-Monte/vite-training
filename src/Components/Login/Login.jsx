@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import LoginForm from './LoginForm'
 
 const Login = () => {
   return (
     <div>
-      Pagina login
+      <Routes>
+        <Route path='/' element={<LoginForm/>}/>
+      </Routes>
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
